@@ -1,4 +1,16 @@
 aid: infoscout-acquired-by-numerator-in-2017
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/infoscout-acquired-by-numerator-in-2017.png
 name: InfoScout (acquired by Numerator in 2017)
 description: 'InfoScout (acquired by Numerator in 2017) is a company surfaced as a portfolio company of
   bain-capital-ventures and added to the API Evangelist network as a stub for enrichment. Sector: commerce.
@@ -12,10 +24,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Commerce
+- Retail
+- Consumer Insights
+- Market Research
+- Purchase Data
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +40,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/infoscout-acquired-by-numerator-in-2017-domain-security.yml
 - type: Website
   url: https://www.numerator.com/
+- type: Blog
+  url: https://www.numerator.com/resources/
+- type: PrivacyPolicy
+  url: https://www.numerator.com/privacy-notice/
+- type: TermsOfService
+  url: https://www.numerator.com/terms/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

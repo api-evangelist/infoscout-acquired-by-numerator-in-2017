@@ -1,0 +1,14 @@
+{
+  "repo": "infoscout-acquired-by-numerator-in-2017",
+  "feeds": [
+    {
+      "source": "https://www.numerator.com/",
+      "feed_url": "https://www.numerator.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
